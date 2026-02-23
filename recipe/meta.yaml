@@ -1,4 +1,4 @@
-{% set version = "2.0.7" %}
+{% set version = "2.0.8" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/greybox_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/greybox/greybox_{{ version }}.tar.gz
-  sha256: 690a01d1b6fd390751cae7161d13d5c60726b04cf0302cb4c62e4e407c116bef
+  sha256: 9d20f21a669b5db55cb5b53b2ac80e7761a9084f7174d80ee0afe78a7eeed83c
 
 build:
   number: 0
